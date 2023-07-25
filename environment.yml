@@ -1,0 +1,40 @@
+name: nptad
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - cudatoolkit
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - python-hostlist
+    - scikit-learn
+    - numpy
+    - pandas
+    - pycodestyle
+    - dotmap
+    - pyyaml
+    - line-profiler
+    - tqdm
+    - pytorch-lightning
+    - patool
+    - wget
+    - scikit-optimize
+    - transformers
+    - numba
+    - ogb
+    - memory-profiler
+    - seaborn
+    - tensorboardX
+    - seaborn
+    - fairseq
+    - dotmap
+    - tabnet
+    - jupyterlab
+    - notebook
+    - matplotlib
+    - qhoptim
+    - torchvision
+    - gpytorch
