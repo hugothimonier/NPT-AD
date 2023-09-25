@@ -37,6 +37,9 @@ from npt.datasets.wine import WineDataset
 from npt.datasets.seismic import SeismicDataset
 from npt.datasets.mulcross import MulcrossDataset
 from npt.datasets.ecoli import EcoliDataset
+from npt.datasets.backdoor import BackdoorDataset
+from npt.datasets.campaign import CampaignDataset
+from npt.datasets.fraud import FraudDataset
 
 from npt.utils.cv_utils import (get_n_cv_splits,
     get_class_reg_train_val_test_splits_ad)
@@ -76,6 +79,9 @@ DATASET_NAME_TO_DATASET_MAP = {
     'seismic': SeismicDataset,
     'mulcross': MulcrossDataset,
     'ecoli': EcoliDataset,
+    'fraud': FraudDataset,
+    'campaign': CampaignDataset,
+    'backdoor': BackdoorDataset,
 }
 
 # Preprocessed separately for data augmentation

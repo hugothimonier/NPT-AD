@@ -44,6 +44,18 @@ curl -o data/kdd/kddcup.data_10_percent.gz http://kdd.ics.uci.edu/databases/kddc
 curl -o data/kddrev/kddcup.names http://kdd.ics.uci.edu/databases/kddcup99/kddcup.names
 curl -o data/kddrev/kddcup.data_10_percent.gz http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data_10_percent.gz
 
+#backdoor
+mkdir -p data/backdoor
+curl -o data/backdoor/3_backdoor.npz https://github.com/Minqi824/ADBench/raw/main/adbench/datasets/Classical/3_backdoor.npz
+
+#campaign
+mkdir -p data/campaign
+curl -o data/campaign/5_campaign.npz https://github.com/Minqi824/ADBench/raw/main/adbench/datasets/Classical/5_campaign.npz
+
+#fraud
+mkdir -p data/fraud
+curl -o data/fraud/13_fraud.npz https://github.com/Minqi824/ADBench/raw/main/adbench/datasets/Classical/13_fraud.npz
+
 #letter
 mkdir -p data/letter
 curl -o data/letter/letter.mat https://www.dropbox.com/s/rt9i95h9jywrtiy/letter.mat?dl=1
